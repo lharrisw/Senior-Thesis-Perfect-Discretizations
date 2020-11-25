@@ -5,9 +5,9 @@ function uperf = perfPoisson(f,h,maxiter)
 %   is the right-hand side of the Poisson equation. The argument H is
 %   the step size of the x-interval and MAXITER is the maximum number of
 %   iterations. The algorithm uses Jacobi's method and utilizes the
-%   parameterized 25-point translationally-invariant perfect Laplacian.
-%   This consists of six operators that vary depending on the distance of
-%   the central point from the boundary.
+%   parameterized normalized 25-point perfect Laplacian. This consists of  
+%   six operators that vary depending on the distance of the central point 
+%   from the boundary.
 %
 %   Example: Solve Poisson's equation on the square with homogeneous
 %            boundary conditions with a right-hand side of 
