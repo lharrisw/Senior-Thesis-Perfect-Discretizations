@@ -1,2 +1,6 @@
 # Senior-Thesis-Perfect-Discretizations
-This contains all files used in the computation presented in my thesis
+
+This repository contains all files used in the computations presented in my senior
+thesis for my undergraduate Physics degree at the University of the Pacific. Each file 
+has its own documentation. There are a total of 8 files, seven of which are MATLAB function
+files.
